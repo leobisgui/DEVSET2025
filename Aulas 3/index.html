@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Página de Teste (Início)</title>
+        <style>
+        </style>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1> Teste de Formulário - CSS</h1>
+        <form method="post" action="teste.php" enctype="multipart/form-data">
+            <input type="hidden" name="country" value="BR">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+            <label>
+                Primeiro Nome:<br/>
+                <input type="text" name="name" required/>
+            </label>
+            <br/>
+            <label>
+                Segundo nome:<br/>
+                <input type="text" name="lastname" required/>
+            </label>
+            <br/>
+            <label>
+                Idade:<br/>
+                <input type="number" name="age" step="1" min="18" max="99"/>
+            </label>
+            <br/>
+            <label>
+                Foto:<br/>
+                <input type="file" name="photo" accept="image/*"/>
+            </label>
+            </fieldset>
+            <br/>
+            <fieldset>
+                <legend>Dados Empresa</legend>
+            <label>
+                Empresa:<br/>
+                <input type="text" name="companyjobtitle" required/>
+            </label>
+            <br/>
+            <label>
+                Cargo:<br/>
+                <input type="text" name="job" required/>
+            </label>
+            </fieldset>
+            <br/><br/>
+            <input type="submit" name="Cadastrar" required/>
+        </form>
+    </body>

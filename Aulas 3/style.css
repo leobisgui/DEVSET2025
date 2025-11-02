@@ -1,0 +1,11 @@
+fieldset{
+    background-color: rgb(228, 223, 223);
+    margin-top: 20px;
+    border: 2px solid red;
+}
+
+legend{
+    background-color: blue;
+    color: azure;
+    padding: 5px;
+}
