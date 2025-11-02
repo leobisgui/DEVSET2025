@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+.container {
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: brown;
+    color: aqua;
+}
+
+.box{
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: brown;
+    color: aqua;
+}
