@@ -32,3 +32,65 @@ input{
     padding: 10px;
     font-size: 13px;
 }
+
+.exemplo{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    background: linear-gradient(-35deg, white,black);
+    background: -moz-linear-gradient(white,black);
+    background: -o-linear-gradient(white,black);
+    background: -webkit-linear-gradient(white,black);
+    margin: auto;
+    text-align: center;
+}
+
+@keyframes animacao {
+    0% { background-color: blue; top:0; left:0;}
+    20% { background-color: aquamarine;right:0; left:100;}
+    40% {background-color: blueviolet;left:100; bottom:100;}
+    60% {background-color: green;bottom:100; right:0;}
+    80% {background-color: red;}
+    100% {background-color: antiquewhite; text-align: auto;}
+}
+
+.exemplo1{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    animation-name: animacao;
+    animation-duration: 5s;
+    position: absolute;
+    animation-iteration-count: 3;
+    text-align: center;
+}
+
+.exemplo2{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin-top: 100px;
+    margin: auto;
+    box-shadow: 10px 10px 50px black;
+    border-radius: 75px;
+    text-align: center;
+}
+
+.exemplo3:hover { width: 300px; height: 300px;}
+.exemplo3{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+    margin-top: 100px;
+    margin: auto;
+    text-align: center;
+    transition: all 1s linear;
+}
+
+.google:hover{color: red;}
+.google{
+    color: black;
+    transition: all 1s linear;
+    text-justify: center;
+    align-items: center;
+}
