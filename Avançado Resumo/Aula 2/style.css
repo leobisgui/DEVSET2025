@@ -93,4 +93,39 @@ input{
     transition: all 1s linear;
     text-justify: center;
     align-items: center;
+    text-decoration-line: none;
+}
+
+.alinhamento{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.exemplo4{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 200px;
+    margin-left: 50%;
+    margin-right: 50%;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+.lista{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.alinhamento1{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
 }
