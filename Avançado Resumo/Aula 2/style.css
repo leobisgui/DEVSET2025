@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+footer{
+    height: 100px;
+    background-color: grey;
+}
+
+nav{
+    height: 100px;
+    background-color: aqua;
+}
+
+zago{
+    background-color: blue;
+
+}
+
+form{
+    width: 200px;
+    height: 180px;
+    background-color: #DDD;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input{
+    margin: auto;
+    padding: 10px;
+    font-size: 13px;
+}
